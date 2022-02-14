@@ -57,7 +57,6 @@
                                         <asp:TextBox runat="server" Enabled="true" CssClass="form-control input-sm" placeholder="City" />
                                     </div>
                                 </div>
-                                <a href="Site.Master.designer.cs">Site.Master.designer.cs</a>
 
                                 <div class="col-md-4 col-md-offset-1">
                                     <div class="form-group">
