@@ -61,7 +61,7 @@
                                 <div class="col-md-4 col-md-offset-1">
                                     <div class="form-group">
                                         <asp:Label Text="Cell Number" runat="server" />
-                                        <asp:TextBox runat="server" Enabled="true" TextMode="Phone" CssClass="form-control input-sm" placeholder="DOB" />
+                                        <asp:TextBox runat="server" Enabled="true" TextMode="Phone" CssClass="form-control input-sm" placeholder="Phone Number" />
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-md-offset-1">
@@ -72,6 +72,14 @@
                                             <asp:ListItem Text="  Male" />
                                             <asp:ListItem Text="  Non-binary" />
                                         </asp:RadioButtonList>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">   
+                                        <asp:Button Text="Save" runat="server" ID="btnsave" Width="150px" CssClass="btn btn-primary" />
+                                        <asp:Button Text="Update" runat="server" ID="btnupdate" Width="150px" CssClass="btn btn-primary" />
+                                        <asp:Button Text="Delete" runat="server" ID="btndelete" Width="150px" CssClass="btn btn-danger" />
                                     </div>
                                 </div>
 
